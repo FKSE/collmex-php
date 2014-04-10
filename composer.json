@@ -1,0 +1,16 @@
+{
+  "name": "fkse/collmex-api",
+  "description": "This Package provides OOP API access to collmex",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fridolin Koch",
+      "email": "fk@fridokoch.de"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "guzzlehttp/guzzle": "4.*"
+  }
+}
