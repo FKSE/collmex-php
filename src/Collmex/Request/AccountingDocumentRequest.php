@@ -1,14 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Frido
- * Date: 07/04/14
- * Time: 11:10
- */
-
 namespace FKSE\Collmex\Request;
 
-
+/**
+ * Class AccountingDocumentRequest
+ *
+ * @author Fridolin Koch <info@fridokoch.de>
+ */
 class AccountingDocumentRequest extends AbstractRequest
 {
 
@@ -33,6 +30,17 @@ class AccountingDocumentRequest extends AbstractRequest
         ];
     }
 
+    public function getCompanyId()
+    {
+        return $this->getField('companyId');
+    }
+
+    public function setCompanyId()
+    {
+        $this->setField('companyId', self::TYPE_INT, 8);
+
+        return $this;
+    }
 
     /**
      * @return string

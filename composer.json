@@ -3,6 +3,7 @@
   "description": "This Package provides OOP API access to collmex",
   "minimum-stability": "stable",
   "license": "MIT",
+  "version": "0.1.0",
   "authors": [
     {
       "name": "Fridolin Koch",
@@ -11,6 +12,7 @@
   ],
   "require": {
     "php": ">=5.4.0",
-    "guzzlehttp/guzzle": "4.*"
+    "guzzlehttp/guzzle": "4.*",
+    "fkse/php-utils": "dev-master"
   }
 }

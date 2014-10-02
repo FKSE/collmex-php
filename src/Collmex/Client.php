@@ -1,7 +1,7 @@
 <?php
 namespace FKSE\Collmex;
 
-use FKSE\Collmex\Response\AbstractRequest;
+use FKSE\Collmex\Request\AbstractRequest;
 
 /**
  * Class Client

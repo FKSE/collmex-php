@@ -6,7 +6,7 @@ namespace FKSE\Collmex\Response;
  *
  * @author Fridolin Koch <info@fridokoch.de>
  */
-abstract class AbstractResponsew
+abstract class AbstractResponse
 {
     /**
      * @return string
