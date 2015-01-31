@@ -1,0 +1,8 @@
+class: FKSE\Collmex\Model\Auth
+fields:
+  user:
+    maxLength: 10
+    type: C
+  password:
+    maxLength: 10
+    type: C
