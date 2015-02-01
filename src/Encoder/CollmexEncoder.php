@@ -41,11 +41,11 @@ class CollmexEncoder
         //get filename
         $config = $this->yaml->parse($this->baseDir.strtolower($type).'.yml');
 
-        var_dump($config);
+        //var_dump($config);
 
         //create reflection class
         $reflect = new \ReflectionClass($object);
 
-        var_dump($reflect->getProperties());
+        //var_dump($reflect->getProperties());
     }
 }
