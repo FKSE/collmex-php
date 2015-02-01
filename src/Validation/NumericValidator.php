@@ -15,6 +15,6 @@ class NumericValidator implements ValidatorInterface
      */
     public function validate($string)
     {
-        return preg_match("/^[0-9]+(,[0-9]{0,3})?$/", $string);
+        return preg_match("/^[0-9]+(,[0-9]{1,3})?$/", $string) === 1;
     }
 }
