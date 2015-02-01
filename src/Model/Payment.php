@@ -1,12 +1,14 @@
 <?php
 namespace FKSE\Collmex\Model\Query;
 
+use FKSE\Collmex\Model\BaseModel;
+
 /**
  * Class Payment
  *
  * @author Fridolin Koch <info@fridokoch.de>
  */
-class Payment
+class Payment extends BaseModel
 {
     /**
      * @var int

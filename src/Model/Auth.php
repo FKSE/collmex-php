@@ -7,7 +7,7 @@ namespace FKSE\Collmex\Model;
  * @author Fridolin Koch <info@fridokoch.de>
  * @internal
  */
-class Auth
+class Auth extends BaseModel
 {
     /**
      * @var string

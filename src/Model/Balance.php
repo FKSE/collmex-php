@@ -6,7 +6,7 @@ namespace FKSE\Collmex\Model;
  *
  * @author Fridolin Koch <info@fridokoch.de>
  */
-class Balance
+class Balance extends BaseModel
 {
     /**
      * @var int

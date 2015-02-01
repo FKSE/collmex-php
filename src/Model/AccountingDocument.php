@@ -6,7 +6,7 @@ namespace FKSE\Collmex\Model;
  *
  * @author Fridolin Koch <info@fridokoch.de>
  */
-class AccountingDocument
+class AccountingDocument extends BaseModel
 {
     /**
      * @var integer
