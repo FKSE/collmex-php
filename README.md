@@ -1,4 +1,5 @@
-collmex-php
-===========
+Collmex PHP API
+===============
 
-This PHP lib provides access to the collmex API
+This PHP lib provides access to the Collmex API
+
