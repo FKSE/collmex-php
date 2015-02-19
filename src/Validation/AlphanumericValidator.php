@@ -13,8 +13,12 @@ class AlphanumericValidator implements ValidatorInterface
      *
      * @return bool
      */
-    public function validate($string)
+    public function validate($string, $maxLength = -1)
     {
-        return preg_match('/^[äÄüÜöÖßA-Za-z0-9 ]+$/u', $string) === 1;
+        if (preg_match('/^[äÄüÜöÖßA-Za-z0-9 ]+$/u', $string) !== 1) {
+            return
+        }
+
+        return $string;
     }
 }
